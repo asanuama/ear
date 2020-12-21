@@ -25,7 +25,7 @@ designer：販売促進のために自分の販売ページやインスタグラ
 https://docs.google.com/spreadsheets/d/1b2H1b5Y_djRNoOL4Ybh1MmU2H7eOMogzer3idgB4WJQ/edit#gid=0
 
 開発環境
-OS：MacOS
+OS：- Linux(CentOS)
 言語：HTML,CSS,JavaScript,Ruby,SQL
 フレームワーク：Ruby on Rails
 JSライブラリ：jQuery
