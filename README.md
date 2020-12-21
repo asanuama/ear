@@ -1,24 +1,31 @@
 # README
+アプリ名
+「ear!」
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+サイト概要
+投稿型アクセサリー(イヤリング、ピアス)検索サイト (サイト自体に販売機能無し) ①イヤリング、ピアス（以下、product）の個人製作者、小規模販売者(以下、designer)がアクセサリーを投稿し、それを見たサイトの閲覧者(以下、viewer)を同ページからリンクにより自身の運営する販売サイトやインスタグラムにリーチさせること ②viewerが本サイトにおいて複数のdesignerの作品を比較検討し、販売サイトやインスタグラムへ移動し購買ができるようにすること 上記により、両者をマッチングさせることをを主な目的とする。
 
-Things you may want to cover:
+・userについて ユーザ登録時、登録者（以下、user）はdesignerモードかviewerモードを選択できる。 両者の違いはデザイナー一覧画面に表示されるかどうかのみであり、投稿等の機能については両者同様に行える。
 
-* Ruby version
+・productについて 投稿できるproductのカテゴリは「イヤリング」「ピアス」の2種類。商品投稿時にカテゴリを選択する。 designerはアクセサリー投稿時に、boolean型「片方のみ販売可能フラグ(is_sold_one?)」と「金属アレルギーフラグ（is_allergie_free?）」を選択する。 userはカテゴリ、片方のみ販売可能フラグ、金属アレルギーフラグをもとにproductを探すことができる。また、名前で検索をかけることができる。
 
-* System dependencies
+サイトテーマ
+自分のニーズに合致するイヤリング、ピアスを探しているuserと、多くの人に作品について認知させ購買に繋げたいと考えているdesignerとのマッチング
 
-* Configuration
+テーマを選んだ理由
+インスタグラムや販売サイトに作品を掲載しているものの、今よりも多くの人に作品について知ってもらいたいと考えている複数のdesignerに対して商品について掲載する機会を提供する場。 「大規模ショップやブランドでは買えないような商品を探したい」「片方を紛失してしまったため、片方のみのものを購入したい」「アレルギーの有無などをもとにニーズにあった留め具の商品を探したい」 そのような希望を持つ方が一つのサイト内で手軽に比較検討し、本当にニーズに合致した商品や好みのdesignerとの出会いのきっかけとなる場。 双方にとってメリットがあるサイトにできたら良いと考え、本テーマを選びました。
 
-* Database creation
+ターゲットユーザ
+designer：自分の販売ページやインスタグラムに顧客をリーチさせたい、また、商品について認知してもらいたいと考えているフリーランスの制作者や小規模販売者 viewer:大規模ショップには無い、自分のニーズに合致したアクセサリーを手軽に比較検討したい20代〜30代女性
 
-* Database initialization
+主な利用シーン
+designer：販売促進のために自分の販売ページやインスタグラムに顧客をリーチさせたい、また、商品について宣伝したいと考えているとき、また、新作の発表時等に商品情報についてサイトに投稿する viewer:大規模ショップには無い、自分の好みに合致したアクセサリーを手軽に比較検討したいとき
 
-* How to run the test suite
+機能一覧
+https://docs.google.com/spreadsheets/d/1b2H1b5Y_djRNoOL4Ybh1MmU2H7eOMogzer3idgB4WJQ/edit#gid=0
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+開発環境
+OS：MacOS
+言語：HTML,CSS,JavaScript,Ruby,SQL
+フレームワーク：Ruby on Rails
+JSライブラリ：jQuery
